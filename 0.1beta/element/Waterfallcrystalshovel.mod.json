@@ -1,0 +1,51 @@
+{
+  "_fv": 85,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Spade",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "waterfall_crystal_shovel",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "guiTexture": "waterfall_crystal_shovel",
+    "name": "Waterfall crystal shovel",
+    "rarity": "COMMON",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Undertaletool"
+      }
+    ],
+    "efficiency": 6.5,
+    "attackSpeed": 1.0,
+    "enchantability": 16,
+    "damageVsEntity": 5.0,
+    "usageCount": 450,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Waterfallcrystal"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "IRON",
+    "blocksAffected": [],
+    "attributeModifiers": [
+      {
+        "equipmentSlot": "mainhand",
+        "attribute": {
+          "value": "SAFE_FALL_DISTANCE"
+        },
+        "amount": 4.0,
+        "operation": "ADD_VALUE"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}
